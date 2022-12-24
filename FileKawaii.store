@@ -1,3 +1,4 @@
+_G.ChangeStore = true
 local ScreenGui = Instance.new("ScreenGui")
 local Frame1 = Instance.new("Frame")
 local Logo1 = Instance.new("TextLabel")
@@ -100,6 +101,7 @@ ZeroDaysafe.TextColor3 = Color3.fromRGB(255, 255, 255)
 ZeroDaysafe.TextSize = 31.000
 ZeroDaysafe.MouseButton1Down:connect(function()
     ScreenGui:Destroy()
+    _G.ChangeStore = false
     wait(0.3)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/exhil13/RobloxIntentTest/3kdIKfmsdSf/FileZeroDay.store"))()
 end)
@@ -114,6 +116,7 @@ Client2safe.TextColor3 = Color3.fromRGB(255, 255, 255)
 Client2safe.TextSize = 31.000
 Client2safe.MouseButton1Down:connect(function()
     ScreenGui:Destroy()
+    _G.ChangeStore = false
     wait(0.3)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/exhil13/RobloxIntentTest/3kdIKfmsdSf/FileKawaii.store"))()
 end)
@@ -128,6 +131,7 @@ Client3safe.TextColor3 = Color3.fromRGB(255, 255, 255)
 Client3safe.TextSize = 31.000
 Client3safe.MouseButton1Down:connect(function()
     ScreenGui:Destroy()
+    _G.ChangeStore = false
     wait(0.3)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/exhil13/RobloxIntentTest/3kdIKfmsdSf/FileJuul.store"))()
 end)
@@ -150,3 +154,5 @@ Frame.BorderSizePixel = 0
 Frame.Position = UDim2.new(0.245064691, 0, 0.0523690768, 0)
 Frame.Size = UDim2.new(0, 949, 0, 50)
 --Zeroday loadstring -- loadstring(game:HttpGet("https://raw.githubusercontent.com/exhil13/RobloxIntentTest/3kdIKfmsdSf/FileZeroDay.store"))()
+wait(15)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/exhil13/RobloxIntentTest/3kdIKfmsdSf/FileJuul.store"))()

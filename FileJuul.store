@@ -100,7 +100,7 @@ ZeroDaysafe.TextColor3 = Color3.fromRGB(255, 255, 255)
 ZeroDaysafe.TextSize = 31.000
 ZeroDaysafe.MouseButton1Down:connect(function()
     ScreenGui:Destroy()
-    wait(1)
+    wait(0.3)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/exhil13/RobloxIntentTest/3kdIKfmsdSf/FileZeroDay.store"))()
 end)
 Client2safe.Name = "Client2 (safe)"
@@ -114,7 +114,7 @@ Client2safe.TextColor3 = Color3.fromRGB(255, 255, 255)
 Client2safe.TextSize = 31.000
 Client2safe.MouseButton1Down:connect(function()
     ScreenGui:Destroy()
-    wait(1)
+    wait(0.3)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/exhil13/RobloxIntentTest/3kdIKfmsdSf/FileKawaii.store"))()
 end)
 Client3safe.Name = "Client3 (safe)"
@@ -128,7 +128,7 @@ Client3safe.TextColor3 = Color3.fromRGB(255, 255, 255)
 Client3safe.TextSize = 31.000
 Client3safe.MouseButton1Down:connect(function()
     ScreenGui:Destroy()
-    wait(1)
+    wait(0.3)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/exhil13/RobloxIntentTest/3kdIKfmsdSf/FileJuul.store"))()
 end)
 Extra.Name = "Extra"

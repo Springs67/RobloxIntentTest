@@ -50,7 +50,7 @@ Explain.BackgroundTransparency = 1.000
 Explain.Position = UDim2.new(0.0370370373, 0, 0.319444448, 0)
 Explain.Size = UDim2.new(0, 317, 0, 99)
 Explain.Font = Enum.Font.SourceSans
-Explain.Text = "Kawaii is one of one of @robloxintents many scripts for a few games you might play! We suggest you Kawaii as it is always hard worked on and the devs would appreicate it."
+Explain.Text = "Kawaii is one of @robloxintents many scripts for a few games you might play! We suggest you Kawaii as it is always hard worked on and the devs would appreicate it."
 Explain.TextColor3 = Color3.fromRGB(255, 255, 255)
 Explain.TextSize = 20.000
 Explain.TextWrapped = true
@@ -109,7 +109,7 @@ Client2safe.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Client2safe.BackgroundTransparency = 0.950
 Client2safe.Size = UDim2.new(0, 216, 0, 50)
 Client2safe.Font = Enum.Font.SourceSans
-Client2safe.Text = "K"
+Client2safe.Text = "Kawaii"
 Client2safe.TextColor3 = Color3.fromRGB(255, 255, 255)
 Client2safe.TextSize = 31.000
 Client2safe.MouseButton1Down:connect(function()
@@ -123,7 +123,7 @@ Client3safe.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Client3safe.BackgroundTransparency = 0.950
 Client3safe.Size = UDim2.new(0, 216, 0, 50)
 Client3safe.Font = Enum.Font.SourceSans
-Client3safe.Text = "L"
+Client3safe.Text = "Juul"
 Client3safe.TextColor3 = Color3.fromRGB(255, 255, 255)
 Client3safe.TextSize = 31.000
 Client3safe.MouseButton1Down:connect(function()
